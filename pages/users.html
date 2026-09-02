@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enterprise dashboard users">
+    <title>Users - Enterprise Dashboard</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<header class="site-header">
+
+    <div class="header-left">
+
+        <button
+            type="button"
+            class="menu-button"
+            id="menuButton"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="sidebar">
+            ☰
+        </button>
+
+        <a href="../index.html" class="logo">
+            Enterprise Dashboard
+        </a>
+
+    </div>
+
+    <nav aria-label="User navigation">
+        <ul class="header-nav">
+            <li>
+                <a href="settings.html">Settings</a>
+            </li>
+            <li>
+                <button type="button" aria-label="Open profile menu">
+                    Profile
+                </button>
+            </li>
+        </ul>
+    </nav>
+
+</header>
+
+<div class="dashboard-layout">
+
+    <aside class="sidebar" id="sidebar" aria-label="Dashboard navigation">
+
+        <nav aria-label="Primary navigation">
+
+            <h2 class="visually-hidden">Primary navigation</h2>
+
+            <ul class="sidebar-menu">
+
+                <li>
+                    <a href="../index.html">Dashboard</a>
+                </li>
+
+                <li>
+                    <a href="users.html" class="active" aria-current="page">
+                        Users
+                    </a>
+                </li>
+
+                <li>
+                    <a href="reports.html">Reports</a>
+                </li>
+
+                <li>
+                    <a href="settings.html">Settings</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </aside>
+
+    <main id="main-content" class="main-content">
+
+        <section aria-labelledby="users-title">
+
+            <div class="page-heading">
+
+                <div>
+                    <p class="eyebrow">Management</p>
+                    <h1 id="users-title">Users</h1>
+                    <p>Manage users and their account information.</p>
+                </div>
+
+                <button type="button" class="primary-button">
+                    Add User
+                </button>
+
+            </div>
+
+        </section>
+
+        <section aria-labelledby="user-table-title">
+
+            <h2 id="user-table-title">User Directory</h2>
+
+            <div class="table-container">
+
+                <table>
+
+                    <caption>
+                        Registered enterprise users
+                    </caption>
+
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Role</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Actions</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <th scope="row">Aarav Sharma</th>
+                            <td>aarav@example.com</td>
+                            <td>Administrator</td>
+                            <td>
+                                <span class="status-success">Active</span>
+                            </td>
+                            <td>
+                                <button
+                                    type="button"
+                                    class="table-button"
+                                    aria-label="Edit Aarav Sharma">
+                                    Edit
+                                </button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Priya Patil</th>
+                            <td>priya@example.com</td>
+                            <td>Manager</td>
+                            <td>
+                                <span class="status-success">Active</span>
+                            </td>
+                            <td>
+                                <button
+                                    type="button"
+                                    class="table-button"
+                                    aria-label="Edit Priya Patil">
+                                    Edit
+                                </button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Rahul Deshmukh</th>
+                            <td>rahul@example.com</td>
+                            <td>Employee</td>
+                            <td>
+                                <span class="status-warning">Pending</span>
+                            </td>
+                            <td>
+                                <button
+                                    type="button"
+                                    class="table-button"
+                                    aria-label="Edit Rahul Deshmukh">
+                                    Edit
+                                </button>
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+<footer class="site-footer">
+    <p>&copy; 2026 Enterprise Dashboard.</p>
+</footer>
+
+<script src="../js/app.js"></script>
+
+</body>
+</html>

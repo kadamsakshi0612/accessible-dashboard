@@ -1,0 +1,83 @@
+<div
+    class="modal-overlay"
+    id="userModal"
+    hidden>
+
+    <section
+        class="modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modalTitle"
+        aria-describedby="modalDescription">
+
+        <button
+            type="button"
+            class="modal-close"
+            id="closeModalButton"
+            aria-label="Close dialog">
+            &times;
+        </button>
+
+        <h2 id="modalTitle">
+            Add New User
+        </h2>
+
+        <p id="modalDescription">
+            Enter the new user's information.
+        </p>
+
+        <form>
+
+            <fieldset>
+
+                <legend>User details</legend>
+
+                <div class="form-group">
+
+                    <label for="componentUserName">
+                        Full name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="componentUserName"
+                        name="userName"
+                        autocomplete="name"
+                        required>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="componentUserEmail">
+                        Email address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="componentUserEmail"
+                        name="userEmail"
+                        autocomplete="email"
+                        required>
+
+                </div>
+
+            </fieldset>
+
+            <div class="modal-actions">
+
+                <button type="button" class="secondary-button">
+                    Cancel
+                </button>
+
+                <button type="submit" class="primary-button">
+                    Add User
+                </button>
+
+            </div>
+
+        </form>
+
+    </section>
+
+</div>

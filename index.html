@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Accessible enterprise dashboard">
+    <title>Enterprise Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<header class="site-header">
+    <div class="header-left">
+        <button
+            type="button"
+            class="menu-button"
+            id="menuButton"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="sidebar">
+            ☰
+        </button>
+
+        <a href="index.html" class="logo" aria-label="Enterprise Dashboard home">
+            Enterprise Dashboard
+        </a>
+    </div>
+
+    <nav aria-label="User navigation">
+        <ul class="header-nav">
+            <li>
+                <a href="pages/settings.html">Settings</a>
+            </li>
+            <li>
+                <button type="button" id="profileButton" aria-label="Open profile menu">
+                    Profile
+                </button>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="dashboard-layout">
+
+    <aside class="sidebar" id="sidebar" aria-label="Dashboard navigation">
+
+        <nav aria-label="Primary navigation">
+            <h2 class="visually-hidden">Primary navigation</h2>
+
+            <ul class="sidebar-menu">
+                <li>
+                    <a href="index.html" class="active" aria-current="page">
+                        Dashboard
+                    </a>
+                </li>
+
+                <li>
+                    <a href="pages/users.html">
+                        Users
+                    </a>
+                </li>
+
+                <li>
+                    <a href="pages/reports.html">
+                        Reports
+                    </a>
+                </li>
+
+                <li>
+                    <a href="pages/settings.html">
+                        Settings
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </aside>
+
+    <main id="main-content" class="main-content">
+
+        <section aria-labelledby="dashboard-title">
+
+            <div class="page-heading">
+                <div>
+                    <p class="eyebrow">Overview</p>
+                    <h1 id="dashboard-title">Dashboard</h1>
+                    <p>Monitor enterprise activity and manage your organization.</p>
+                </div>
+
+                <button type="button" class="primary-button" id="openModalButton">
+                    Add User
+                </button>
+            </div>
+
+        </section>
+
+        <section aria-labelledby="statistics-title">
+
+            <h2 id="statistics-title">Statistics</h2>
+
+            <div class="statistics-grid">
+
+                <article class="stat-card">
+                    <h3>Total Users</h3>
+                    <p class="stat-number">1,248</p>
+                    <p>12% increase this month</p>
+                </article>
+
+                <article class="stat-card">
+                    <h3>Active Users</h3>
+                    <p class="stat-number">982</p>
+                    <p>78.7% of total users</p>
+                </article>
+
+                <article class="stat-card">
+                    <h3>Reports</h3>
+                    <p class="stat-number">324</p>
+                    <p>28 reports generated today</p>
+                </article>
+
+                <article class="stat-card">
+                    <h3>System Status</h3>
+                    <p class="status-success">Operational</p>
+                    <p>All services are running</p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <section aria-labelledby="activity-title">
+
+            <div class="section-heading">
+                <div>
+                    <h2 id="activity-title">Recent Activity</h2>
+                    <p>Latest activities from your organization.</p>
+                </div>
+
+                <a href="pages/reports.html" class="secondary-button">
+                    View all reports
+                </a>
+            </div>
+
+            <div class="table-container">
+
+                <table>
+                    <caption class="visually-hidden">
+                        Recent enterprise user activity
+                    </caption>
+
+                    <thead>
+                        <tr>
+                            <th scope="col">User</th>
+                            <th scope="col">Activity</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Status</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row">Aarav Sharma</th>
+                            <td>Created a report</td>
+                            <td>
+                                <time datetime="2026-08-24">August 24, 2026</time>
+                            </td>
+                            <td>
+                                <span class="status-success">Completed</span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Priya Patil</th>
+                            <td>Updated profile</td>
+                            <td>
+                                <time datetime="2026-08-23">August 23, 2026</time>
+                            </td>
+                            <td>
+                                <span class="status-success">Completed</span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Rahul Deshmukh</th>
+                            <td>Added new user</td>
+                            <td>
+                                <time datetime="2026-08-22">August 22, 2026</time>
+                            </td>
+                            <td>
+                                <span class="status-warning">Pending</span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Sneha Joshi</th>
+                            <td>Downloaded report</td>
+                            <td>
+                                <time datetime="2026-08-21">August 21, 2026</time>
+                            </td>
+                            <td>
+                                <span class="status-success">Completed</span>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+        <section aria-labelledby="quick-form-title">
+
+            <article class="form-card">
+
+                <h2 id="quick-form-title">Quick Contact Form…
