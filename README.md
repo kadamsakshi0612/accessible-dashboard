@@ -1,10 +1,10 @@
-Semantic HTML5 & Accessible Component Architecture
+# Semantic HTML5 & Accessible Component Architecture
 
-Task 03
+## Task 03
 
 This project is an accessible multi-page enterprise dashboard built using semantic HTML5, CSS3, and JavaScript.
 
-Features
+## Features
 
 - Semantic HTML5 structure
 - Accessible header and navigation
@@ -25,7 +25,7 @@ Features
 
 Semantic HTML5 Elements Used
 
-The project uses:
+## The project uses:
 
 - " <header> "
 - " <nav> "
@@ -52,43 +52,43 @@ The dashboard includes:
 - Accessible tables with captions and table headers
 - Keyboard-accessible modal dialog
 
-Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
 - WCAG 2.1 Accessibility Guidelines
 
-How to Run
+## How to Run
 
 1. Download or clone the repository.
 2. Open the project in VS Code or Replit.
 3. Open "index.html".
 4. Run using Live Server or Replit preview.
 
-Pages
+## Pages
 
-Dashboard
+## Dashboard
 
 Displays statistics, recent activity, and a contact form.
 
-Users
+## Users
 
 Displays the registered user directory in an accessible table.
 
-Reports
+## Reports
 
 Displays generated enterprise reports.
 
-Settings
+## Settings
 
 Provides accessible account and notification settings.
 
-Validation
+## Validation
 
 The HTML pages should be validated using the W3C Markup Validation Service.
 
-Pages to validate:
+## Pages to validate:
 
 - "index.html"
 - "pages/users.html"
@@ -99,7 +99,7 @@ Target result: 0 HTML syntax errors.
 
 Keyboard Testing
 
-The project can be tested using:
+## The project can be tested using:
 
 - Tab
 - Shift + Tab
