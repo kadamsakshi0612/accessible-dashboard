@@ -26,14 +26,13 @@ This project is an accessible multi-page enterprise dashboard built using semant
 Semantic HTML5 Elements Used
 
 ## The project uses:
-
-###- " <header> "
-- " <nav> "
-- " <main> "
-- " <section> "
-- " <article> "
-- " <aside> "
-- " <footer> "
+- header
+- nav
+- main
+- section
+- article
+- aside
+- footer
 
 Accessibility
 
