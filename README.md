@@ -34,9 +34,9 @@ Semantic HTML5 Elements Used
 - aside
 - footer
 
-Accessibility
+##Accessibility
 
-The dashboard includes:
+##The dashboard includes:
 
 - Proper heading hierarchy
 - Skip navigation link
