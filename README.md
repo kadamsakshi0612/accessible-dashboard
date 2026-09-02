@@ -27,13 +27,13 @@ Semantic HTML5 Elements Used
 
 The project uses:
 
-- "<header>"
-- "<nav>"
-- "<main>"
-- "<section>"
-- "<article>"
-- "<aside>"
-- "<footer>"
+- " <header> "
+- " <nav> "
+- " <main> "
+- " <section> "
+- " <article> "
+- " <aside> "
+- " <footer> "
 
 Accessibility
 
@@ -51,32 +51,6 @@ The dashboard includes:
 - "aria-modal"
 - Accessible tables with captions and table headers
 - Keyboard-accessible modal dialog
-
-Project Structure
-
-accessible-dashboard/
-│
-├── index.html
-├── pages/
-│   ├── users.html
-│   ├── reports.html
-│   └── settings.html
-│
-├── components/
-│   ├── header.html
-│   ├── sidebar.html
-│   └── modal.html
-│
-├── css/
-│   └── styles.css
-│
-├── js/
-│   └── app.js
-│
-├── tests/
-│   └── accessibility-checklist.md
-│
-└── README.md
 
 Technologies Used
 
