@@ -27,7 +27,7 @@ Semantic HTML5 Elements Used
 
 ## The project uses:
 
-- " <header> "
+###- " <header> "
 - " <nav> "
 - " <main> "
 - " <section> "
